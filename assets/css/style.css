@@ -1,0 +1,76 @@
+@media (prefers-color-scheme: dark) {
+  .nss-container {
+    border-color: #333;
+  }
+  .nss-container p {
+    color: #eee;
+  }
+  .nss-share-button {
+    background-color: #1e90ff;
+    color: #fff;
+  }
+  .nss-share-button:hover {
+    background-color: #006dd3;
+  }
+  .nss-fallback-links a {
+    background-color: #333;
+    color: #ddd;
+  }
+  .nss-fallback-links a:hover {
+    background-color: #444;
+  }
+}
+
+.nss-container {
+  margin: 2em 0;
+  padding: 1.5em;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  font-size: 0.7em;
+}
+
+.nss-container p {
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+.nss-share-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.nss-share-button {
+    background-color: #414141;
+    color: #fff;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nss-share-button:hover {
+  background-color: #005a87;
+}
+
+.nss-fallback-links {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.nss-fallback-links a {
+  text-decoration: none;
+  padding: 8px 12px;
+  background-color: #f0f0f0;
+  color: #333;
+  border-radius: 4px;
+}
+
+.nss-fallback-links a:hover {
+  background-color: #e0e0e0;
+}
