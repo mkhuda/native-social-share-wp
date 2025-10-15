@@ -1,4 +1,4 @@
-# 🧩 Native Social Share
+# 🧩 Native Social Share | Wordpress Plugin
 
 > A lightweight, performance-focused WordPress plugin using the **native Web Share API** with graceful fallbacks for Twitter, Facebook, and LinkedIn.
 
@@ -22,9 +22,9 @@
 
 ## 🛠️ Installation
 
-1. Download the latest release from [Releases](https://github.com/mkhuda/native-social-share/releases).
+1. Download the latest release from [Releases](https://github.com/mkhuda/native-social-share-wp/releases).
 2. Upload the folder to your WordPress site at:  
-   `/wp-content/plugins/native-social-share/`
+   `/wp-content/plugins/native-social-share-wp/`
 3. Activate the plugin from **Plugins → Installed Plugins**.
 4. Go to **Settings → Native Social Share** to configure:
    - Position: Above or below post content
@@ -35,7 +35,7 @@
 ## 🧩 Plugin Structure
 
 ```
-/native-social-share/
+/native-social-share-wp/
 ├── assets/
 │ ├── css/
 │ │ └── style.css
@@ -91,4 +91,4 @@
 ---
 
 ### ⭐ Show support
-If you like this plugin, give it a ⭐ on [GitHub](https://github.com/mkhuda/native-social-share) or mention it on your blog!
+If you like this plugin, give it a ⭐ on [GitHub](https://github.com/mkhuda/native-social-share-wp) or mention it on your blog!
