@@ -1,5 +1,7 @@
 # 🧩 Native Social Share | Wordpress Plugin
 
+![Native Social Share WP Image](https://cdn.mkhuda.com/wp-content/uploads/2025/10/native-social-share-wp-1.jpg)
+
 > A lightweight, performance-focused WordPress plugin using the **native Web Share API** with graceful fallbacks for Twitter, Facebook, and LinkedIn.
 
 ![WordPress Tested](https://img.shields.io/badge/WordPress-6.7%20tested-brightgreen)
@@ -63,6 +65,8 @@
 |----------|--------------------|
 | Native Share (`navigator.share`) | Chrome, Edge, Safari, Android WebView |
 | Fallback Links | All browsers |
+
+![Native Social Share WP Image](https://cdn.mkhuda.com/wp-content/uploads/2025/10/native-social-share-wp-2.jpg)
 
 ---
 
