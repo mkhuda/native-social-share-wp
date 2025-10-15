@@ -34,6 +34,7 @@
 
 ## 🧩 Plugin Structure
 
+```
 /native-social-share/
 ├── assets/
 │ ├── css/
@@ -42,6 +43,7 @@
 │ └── share.js
 ├── native-social-share.php
 └── readme.txt
+```
 
 ---
 
