@@ -18,7 +18,7 @@ jobs:
 
       - name: Create ZIP archive
         run: |
-          zip -r ${{ env.PLUGIN_NAME }}.zip ${{ env.PLUGIN_NAME }} -x "*.git*" -x "*.github*" -x "*.DS_Store"
+          zip -r native-social-share-wp.zip . -x "*.git*" -x "*.github*" -x "*.DS_Store*" -x "*/__MACOSX/*"
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
