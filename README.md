@@ -16,7 +16,7 @@
 - 🌗 **Auto Dark Mode** support (via `prefers-color-scheme`)
 - 💨 No dependencies (zero jQuery)
 - ⚙️ Configurable from WordPress Dashboard:
-  - Button position (above or below content)
+  - Button position (above, below, both content)
   - Enable/disable specific social platforms (Twitter, Facebook, LinkedIn)
 - 🧱 Lightweight: ~10KB including CSS + JS
 
@@ -29,7 +29,7 @@
    `/wp-content/plugins/native-social-share-wp/`
 3. Activate the plugin from **Plugins → Installed Plugins**.
 4. Go to **Settings → Native Social Share** to configure:
-   - Position: Above or below post content
+   - Position: Above or below or both post content
    - Which social buttons to show
 
 ---
@@ -53,7 +53,7 @@
 
 | Option | Description | Default |
 |--------|--------------|----------|
-| **Position** | Where to show buttons (Above / Below content) | Below |
+| **Position** | Where to show buttons (Above / Below / Both content) | Below |
 | **Enabled Buttons** | Choose which social buttons appear | All enabled |
 | **Auto Dark Mode** | Adapts to system theme automatically | Enabled |
 
@@ -72,6 +72,15 @@
 
 ## 📦 Changelog
 
+### v1.1.0 (2025-10-27)
+- 🔧 Updated prefix from **`nss` → `natssh`** (WordPress.org compliance)
+- 🧩 Added PHP namespace `Mkhuda\NativeSocialShare`
+- ⚙️ Improved option migration for smoother upgrades
+- 🧾 Fixed license mismatch between files (`GPL-2.0-or-later`)
+- 🧼 Minor code cleanup and PHPCS/WPCS compliance
+- 📦 Updated readme + assets for submission to WP Plugin Directory
+- Added **“Both (Above & Below)”** position option for more flexibility
+
 ### v1.0 (2025-10-15)
 - Initial public release with native share + fallback buttons
 - ✨ Added **Auto Dark Mode** support
@@ -83,7 +92,7 @@
 - Written in pure PHP + Vanilla JS  
 - Safe to use with caching/CDN  
 - 100% compliant with WordPress coding standards  
-- License: [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
+- License: [GPLv3 or later](https://www.gnu.org/licenses/gpl-3.0.html)
 
 ---
 

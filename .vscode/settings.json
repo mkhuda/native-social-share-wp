@@ -1,0 +1,21 @@
+{
+  // Gunakan PHP path lokal kamu
+  // "php.validate.executablePath": "/Users/rg/Library/Application Support/Local/lightning-services/php-7.4.30+6/bin/darwin-arm64/bin/php",
+  // Jalankan format otomatis saat save
+  // "editor.formatOnSave": true,
+  // // Gunakan Intelephense untuk PHP
+  // "intelephense.format.enable": true,
+  // "intelephense.format.braces": "k&r",
+  // "intelephense.format.insertSpaces": true,
+  // "intelephense.format.indent": 4,
+  // // Hilangkan warning yang gak penting
+  // "intelephense.diagnostics.undefinedTypes": false,
+  // "intelephense.diagnostics.undefinedFunctions": false,
+  // "intelephense.diagnostics.undefinedConstants": false,
+  // // Abaikan folder yang gak penting
+  // "intelephense.files.exclude": [
+  //   "**/node_modules/**",
+  //   "**/vendor/**",
+  //   "**/.git/**"
+  // ]
+}

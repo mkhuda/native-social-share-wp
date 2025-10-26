@@ -1,14 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
-  console.log("Native Social Share: DOM ready.");
-
   document.querySelectorAll(".nss-container").forEach((shareContainer) => {
     const primaryShareButton = shareContainer.querySelector(".nss-share-button");
 
     if (!primaryShareButton) return;
 
-    // Jika browser support native share
     if (navigator.share) {
-      console.log("Native Social Share: Web Share API supported.");
       primaryShareButton.addEventListener("click", async (event) => {
         event.preventDefault();
         const title = shareContainer.dataset.shareTitle || document.title;
@@ -22,6 +18,8 @@ document.addEventListener("DOMContentLoaded", () => {
           console.info("Share canceled or failed:", err);
         }
       });
+    } else {
+      console.warn("Web Share API not supported. Falling back to traditional share links.");
     }
   });
 });
